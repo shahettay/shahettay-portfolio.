@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahettay Bahattacharjee Utches | Portfolio</title>
+    
+    <meta name="description" content="Professional portfolio of Shahettay Bahattacharjee Utches - Digital Marketer, Data Entry Expert, and AI Enthusiast based in Bangladesh.">
+    <meta name="keywords" content="Shahettay Bahattacharjee Utches, Digital Marketing, Data Entry, AI Expert, Freelancer, Bangladesh, Netrakona">
+    <meta name="author" content="Shahettay Bahattacharjee Utches">
+    
+    <meta property="og:title" content="Shahettay Bahattacharjee Utches | Portfolio">
+    <meta property="og:description" content="Digital Marketer, Data Entry Expert, and AI Enthusiast. Count on me for your business responsibilities.">
+    <meta property="og:type" content="website">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        dark: '#0f172a',
+                        darker: '#020617',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-darker text-gray-100 font-sans antialiased selection:bg-primary selection:text-white">
+
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 font-bold text-2xl tracking-tighter">
+                    <span class="text-primary">S</span>BU.
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#about" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#skills" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Skills</a>
+                        <a href="#education" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Timeline</a>
+                        <a href="#contact" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden glass-nav absolute w-full border-t border-gray-800">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block hover:text-primary px-3 py-2 text-base font-medium">Home</a>
+                <a href="#about" class="block hover:text-primary px-3 py-2 text-base font-medium">About</a>
+                <a href="#skills" class="block hover:text-primary px-3 py-2 text-base font-medium">Skills</a>
+                <a href="#contact" class="block hover:text-primary px-3 py-2 text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-left reveal">
+                <p class="text-primary font-semibold tracking-wide uppercase mb-3">Hello there, I am</p>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">
+                    Shahettay <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">Utches</span>
+                </h1>
+                <div class="text-xl md:text-2xl text-gray-400 mb-8 h-8">
+                    I am an <span id="typewriter" class="text-white font-semibold"></span><span class="cursor">|</span>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="bg-primary hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-all shadow-lg shadow-blue-500/30">Hire Me</a>
+                    <a href="assets/resume.pdf" target="_blank" class="glass-card hover:bg-white/10 text-white px-8 py-3 rounded-full font-medium transition-all border border-gray-700">Download CV</a>
+                </div>
+            </div>
+            <div class="reveal delay-200 hidden md:block">
+                <div class="relative w-80 h-80 mx-auto">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-primary to-purple-600 rounded-full animate-spin-slow opacity-50 blur-lg"></div>
+                    <img src="assets/images/profile-placeholder.jpg" alt="Shahettay" class="relative z-10 w-full h-full object-cover rounded-full border-4 border-darker grayscale hover:grayscale-0 transition-all duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-primary">Me</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
+            </div>
+            <div class="glass-card p-8 md:p-12 rounded-2xl reveal">
+                <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                    Born to be a Patriot, I am the offspring of Gautam Bhattacharjee & Sheuly Bhattacharjee. With a strong foundation in the humanities and a current focus on Political Science at Netrakona Govt. College, I blend critical thinking with cutting-edge technical skills.
+                </p>
+                <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                    I am certified in Computer Operations, Digital Marketing, and Data Entry, bringing extensive experience in digital tools, social media promotion, and freelance tasks. I am driven by responsibility and precision.
+                </p>
+                <p class="text-xl font-medium text-white italic border-l-4 border-primary pl-4">
+                    "I think you can count on me with the responsibilities of your businesses. So, why don't you try me?"
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Professional <span class="text-primary">Skills</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-8 reveal">
+                    <h3 class="text-2xl font-semibold mb-6 border-b border-gray-800 pb-2"><i class="fas fa-laptop-code text-primary mr-2"></i> Technical Expertise</h3>
+                    
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-medium text-gray-300">Data Entry (10MS)</span>
+                            <span class="text-primary">Expert</span>
+                        </div>
+                        <div class="w-full bg-gray-800 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-primary to-purple-500 h-2 rounded-full" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-medium text-gray-300">Artificial Intelligence</span>
+                            <span class="text-primary">Expert</span>
+                        </div>
+                        <div class="w-full bg-gray-800 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-primary to-purple-500 h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-medium text-gray-300">MS Office & Computer Ops (NSDA L3)</span>
+                            <span class="text-primary">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-800 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-primary to-purple-500 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-medium text-gray-300">Digital Marketing (NSDA L3)</span>
+                            <span class="text-primary">Intermediate</span>
+                        </div>
+                        <div class="w-full bg-gray-800 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-primary to-purple-500 h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-8 reveal delay-200">
+                    <h3 class="text-2xl font-semibold mb-6 border-b border-gray-800 pb-2"><i class="fas fa-globe text-primary mr-2"></i> Languages & Certifications</h3>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="glass-card p-6 rounded-xl text-center hover:-translate-y-2 transition-transform">
+                            <h4 class="text-xl font-bold text-white mb-2">Bengali</h4>
+                            <p class="text-gray-400">Native Speaker</p>
+                        </div>
+                        <div class="glass-card p-6 rounded-xl text-center hover:-translate-y-2 transition-transform">
+                            <h4 class="text-xl font-bold text-white mb-2">English</h4>
+                            <p class="text-gray-400">B2 Upper Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 glass-card p-6 rounded-xl border-l-4 border-purple-500">
+                        <h4 class="text-lg font-bold text-white mb-2"><i class="fas fa-map-marked-alt mr-2 text-purple-400"></i> Tour Guiding Level 3 (NSDA)</h4>
+                        <p class="text-sm text-gray-400">Demonstrated competency in end-to-end tour planning, delivery, and supervision in domestic tourism contexts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 bg-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Education <span class="text-primary">Timeline</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
+            </div>
+
+            <div class="relative border-l border-gray-700 ml-3 md:ml-6 space-y-12">
+                <div class="relative pl-8 reveal">
+                    <div class="absolute w-4 h-4 bg-primary rounded-full -left-[8.5px] top-1 shadow-[0_0_10px_#3b82f6]"></div>
+                    <div class="glass-card p-6 rounded-xl">
+                        <span class="text-sm text-primary font-semibold tracking-wider">Present</span>
+                        <h3 class="text-xl font-bold mt-1 text-white">Bachelor of Social Science (Political Science)</h3>
+                        <p class="text-gray-400 mt-2">Netrakona Govt. College (Bangladesh National University)</p>
+                        <p class="text-sm text-gray-500 mt-3">Currently in 1st Year. Roll: 19046</p>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 reveal">
+                    <div class="absolute w-4 h-4 bg-gray-600 rounded-full -left-[8.5px] top-1"></div>
+                    <div class="glass-card p-6 rounded-xl border border-gray-800">
+                        <span class="text-sm text-gray-400 font-semibold tracking-wider">2024</span>
+                        <h3 class="text-xl font-bold mt-1 text-white">Higher Secondary Certificate (HSC)</h3>
+                        <p class="text-gray-400 mt-2">Abu Abbas Degree College, Netrakona</p>
+                        <p class="text-sm text-gray-500 mt-3">Humanities group. Focused on social science, history, and civics under the Mymensingh Education Board.</p>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 reveal">
+                    <div class="absolute w-4 h-4 bg-gray-600 rounded-full -left-[8.5px] top-1"></div>
+                    <div class="glass-card p-6 rounded-xl border border-gray-800">
+                        <span class="text-sm text-gray-400 font-semibold tracking-wider">2022</span>
+                        <h3 class="text-xl font-bold mt-1 text-white">Secondary School Certificate (SSC)</h3>
+                        <p class="text-gray-400 mt-2">Dutt High School, Netrakona</p>
+                        <p class="text-sm text-gray-500 mt-3">Built a strong foundation in humanities under the Mymensingh Education Board.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Professional <span class="text-primary">Services</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-8 rounded-2xl text-center group hover:-translate-y-2 transition-all duration-300 reveal">
+                    <div class="w-16 h-16 bg-blue-900/50 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-database text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Expert Data Entry</h3>
+                    <p class="text-gray-400 text-sm">Alphanumeric input, advanced Excel formatting, OCR-based digitization, and precise remote data handling.</p>
+                </div>
+                
+                <div class="glass-card p-8 rounded-2xl text-center group hover:-translate-y-2 transition-all duration-300 reveal delay-100">
+                    <div class="w-16 h-16 bg-purple-900/50 text-purple-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-bullhorn text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Digital Marketing</h3>
+                    <p class="text-gray-400 text-sm">SEO strategies, keyword research, campaign analytics, and social media promotion to acquire and retain clients.</p>
+                </div>
+
+                <div class="glass-card p-8 rounded-2xl text-center group hover:-translate-y-2 transition-all duration-300 reveal delay-200">
+                    <div class="w-16 h-16 bg-teal-900/50 text-teal-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-file-word text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Digital Workflow</h3>
+                    <p class="text-gray-400 text-sm">Hardware troubleshooting, business document preparation, MS Office automation, and secure file management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16">
+                <div class="reveal">
+                    <h2 class="text-4xl font-bold mb-6">Let's <span class="text-primary">Connect</span></h2>
+                    <p class="text-gray-400 mb-8 text-lg">I am currently available for freelance projects and business responsibilities. Reach out and let's build something great.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center glass-card p-4 rounded-lg">
+                            <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-primary mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Email</p>
+                                <a href="mailto:shahettaysb@gmail.com" class="text-white font-medium hover:text-primary transition-colors">shahettaysb@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center glass-card p-4 rounded-lg">
+                            <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-green-500 mr-4">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">WhatsApp / Phone</p>
+                                <p class="text-white font-medium">+880 1819-337746</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center glass-card p-4 rounded-lg">
+                            <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-blue-400 mr-4">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/shahettay" target="_blank" class="text-white font-medium hover:text-primary transition-colors">linkedin.com/in/shahettay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card p-8 rounded-2xl reveal delay-200">
+                    <form onsubmit="event.preventDefault(); alert('In a production environment, this would connect to an API (like Formspree or EmailJS) to send the message.');">
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-400 mb-2">Name</label>
+                            <input type="text" class="w-full bg-gray-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-400 mb-2">Email</label>
+                            <input type="email" class="w-full bg-gray-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="john@example.com" required>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-400 mb-2">Message</label>
+                            <textarea rows="4" class="w-full bg-gray-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="How can I help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-blue-600 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-blue-500/25">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-800 py-8 text-center bg-darker">
+        <p class="text-gray-500 text-sm">
+            &copy; <span id="year"></span> Shahettay Bahattacharjee Utches. All rights reserved. <br>
+            <span class="text-xs text-gray-600 mt-2 block">Netrakona, Bangladesh (ZIP: 2400)</span>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
