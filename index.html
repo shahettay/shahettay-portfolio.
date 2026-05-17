@@ -3,119 +3,397 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shahettay Bahattacharjee Utches | Portfolio</title>
+    <title>Unique Computer Technical Training Center (UCTTC) - Professional IT Training in Bangladesh</title>
     
-    <meta name="description" content="Professional portfolio of Shahettay Bahattacharjee Utches - Digital Marketer, Data Entry Expert, and AI Enthusiast based in Bangladesh.">
-    <meta name="keywords" content="Shahettay Bahattacharjee Utches, Digital Marketing, Data Entry, AI Expert, Freelancer, Bangladesh, Netrakona">
-    <meta name="author" content="Shahettay Bahattacharjee Utches">
+    <meta name="description" content="UCTTC offers professional computer training courses in Bangladesh. Learn Graphic Design, Web Development, Freelancing, Digital Marketing & more. Government certified courses with job placement support.">
+    <meta name="keywords" content="UCTTC, Computer Training Bangladesh, IT Courses, Graphic Design Course, Web Development, Freelancing Training, Digital Marketing Course, Government Certified Training, Computer Institute">
+    <meta name="author" content="Unique Computer Technical Training Center">
+    <meta name="robots" content="index, follow">
     
-    <meta property="og:title" content="Shahettay Bahattacharjee Utches | Portfolio">
-    <meta property="og:description" content="Digital Marketer, Data Entry Expert, and AI Enthusiast. Count on me for your business responsibilities.">
+    <meta property="og:title" content="UCTTC - Unique Computer Technical Training Center">
+    <meta property="og:description" content="Professional IT & Computer Training Center in Bangladesh. Government certified courses with 95%+ success rate.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/ucttc-hero.jpg">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            darkMode: 'class',
             theme: {
                 extend: {
                     colors: {
-                        primary: '#3b82f6',
+                        primary: '#1e40af',
+                        secondary: '#3b82f6',
+                        accent: '#0ea5e9',
                         dark: '#0f172a',
-                        darker: '#020617',
+                        light: '#f8fafc',
                     },
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['Inter', 'Bengali', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-darker text-gray-100 font-sans antialiased selection:bg-primary selection:text-white">
+<body class="bg-light text-gray-800 font-sans antialiased selection:bg-primary selection:text-white">
 
-    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+    <!-- Top Bar -->
+    <div class="bg-primary text-white py-2 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <span><i class="fas fa-phone-alt mr-2"></i>+880 1XXX-XXXXXX</span>
+                    <span class="hidden sm:inline"><i class="fas fa-envelope mr-2"></i>info@ucttc.edu.bd</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="hidden sm:inline">Follow Us:</span>
+                    <a href="#" class="hover:text-accent"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-accent"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="hover:text-accent"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white shadow-lg transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex-shrink-0 font-bold text-2xl tracking-tighter">
-                    <span class="text-primary">S</span>BU.
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#home" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Home</a>
-                        <a href="#about" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">About</a>
-                        <a href="#skills" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Skills</a>
-                        <a href="#education" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Timeline</a>
-                        <a href="#contact" class="hover:text-primary transition-colors px-3 py-2 text-sm font-medium">Contact</a>
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-primary">UCTTC</h1>
+                        <p class="text-xs text-gray-600">Unique Computer Technical Training Center</p>
                     </div>
                 </div>
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                
+                <div class="hidden lg:block">
+                    <div class="flex items-center space-x-1">
+                        <a href="index.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Home</a>
+                        <a href="about.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">About</a>
+                        <a href="courses.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Courses</a>
+                        <a href="admission.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Admission</a>
+                        <a href="notice.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Notice</a>
+                        <a href="result.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Result</a>
+                        <a href="gallery.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Gallery</a>
+                        <a href="contact.html" class="hover:bg-blue-50 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-primary transition-all">Contact</a>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-3">
+                    <a href="admission.html" class="hidden md:inline-flex bg-primary hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg font-medium transition-all shadow-md hover:shadow-lg">
+                        Apply Now
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-gray-700 hover:text-primary focus:outline-none">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
                 </div>
             </div>
         </div>
-        <div id="mobile-menu" class="hidden md:hidden glass-nav absolute w-full border-t border-gray-800">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block hover:text-primary px-3 py-2 text-base font-medium">Home</a>
-                <a href="#about" class="block hover:text-primary px-3 py-2 text-base font-medium">About</a>
-                <a href="#skills" class="block hover:text-primary px-3 py-2 text-base font-medium">Skills</a>
-                <a href="#contact" class="block hover:text-primary px-3 py-2 text-base font-medium">Contact</a>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-200">
+            <div class="px-4 py-3 space-y-2">
+                <a href="index.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Home</a>
+                <a href="about.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">About</a>
+                <a href="courses.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Courses</a>
+                <a href="admission.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Admission</a>
+                <a href="notice.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Notice</a>
+                <a href="result.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Result</a>
+                <a href="gallery.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Gallery</a>
+                <a href="contact.html" class="block hover:bg-blue-50 px-3 py-2 rounded-lg text-base font-medium text-gray-700">Contact</a>
+                <a href="admission.html" class="block bg-primary hover:bg-blue-700 text-white text-center px-3 py-2 rounded-lg font-medium mt-3">Apply Now</a>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <div class="absolute inset-0 z-0 opacity-20">
-            <div class="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-primary/5 pt-24">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-secondary/20 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+            <div class="absolute bottom-20 left-1/2 w-72 h-72 bg-primary/10 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
         </div>
         
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid md:grid-cols-2 gap-12 items-center">
-            <div class="text-left reveal">
-                <p class="text-primary font-semibold tracking-wide uppercase mb-3">Hello there, I am</p>
-                <h1 class="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">
-                    Shahettay <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">Utches</span>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center py-12">
+            <div class="text-left reveal order-2 lg:order-1">
+                <span class="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <i class="fas fa-star mr-2"></i>Government Certified Training Center
+                </span>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-gray-900">
+                    Build Your Career with <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Professional IT Training</span>
                 </h1>
-                <div class="text-xl md:text-2xl text-gray-400 mb-8 h-8">
-                    I am an <span id="typewriter" class="text-white font-semibold"></span><span class="cursor">|</span>
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                    Unique Computer Technical Training Center (UCTTC) offers industry-leading courses in Graphic Design, Web Development, Freelancing, Digital Marketing & more. Start your journey to success today!
+                </p>
+                
+                <!-- Quick Action Buttons -->
+                <div class="flex flex-wrap gap-4 mb-8">
+                    <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-lg shadow-blue-500/30 hover:shadow-xl hover:-translate-y-1">
+                        <i class="fas fa-user-plus mr-2"></i>Apply Now
+                    </a>
+                    <a href="courses.html" class="bg-white hover:bg-gray-50 text-primary px-8 py-3.5 rounded-xl font-semibold transition-all border-2 border-primary hover:border-blue-700">
+                        <i class="fas fa-book-open mr-2"></i>View Courses
+                    </a>
+                    <a href="result.html" class="bg-white hover:bg-gray-50 text-gray-700 px-8 py-3.5 rounded-xl font-semibold transition-all border-2 border-gray-300 hover:border-primary">
+                        <i class="fas fa-award mr-2"></i>Check Results
+                    </a>
                 </div>
-                <div class="flex space-x-4">
-                    <a href="#contact" class="bg-primary hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-all shadow-lg shadow-blue-500/30">Hire Me</a>
-                    <a href="assets/resume.pdf" target="_blank" class="glass-card hover:bg-white/10 text-white px-8 py-3 rounded-full font-medium transition-all border border-gray-700">Download CV</a>
+                
+                <!-- Trust Badges -->
+                <div class="flex flex-wrap gap-6 text-sm text-gray-600">
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                        <span>Govt. Certified</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                        <span>Expert Trainers</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                        <span>Job Placement</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                        <span>Flexible Schedule</span>
+                    </div>
                 </div>
             </div>
-            <div class="reveal delay-200 hidden md:block">
-                <div class="relative w-80 h-80 mx-auto">
-                    <div class="absolute inset-0 bg-gradient-to-tr from-primary to-purple-600 rounded-full animate-spin-slow opacity-50 blur-lg"></div>
-                    <img src="assets/images/profile-placeholder.jpg" alt="Shahettay" class="relative z-10 w-full h-full object-cover rounded-full border-4 border-darker grayscale hover:grayscale-0 transition-all duration-500">
+            
+            <div class="reveal delay-200 order-1 lg:order-2">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-3xl transform rotate-3 opacity-20"></div>
+                    <img src="assets/images/hero-training.jpg" alt="UCTTC Students Learning" class="relative z-10 w-full h-auto rounded-3xl shadow-2xl" onerror="this.src='https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop'">
+                    
+                    <!-- Floating Stats Card -->
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center">
+                                <i class="fas fa-users text-green-600 text-2xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-gray-900">5000+</p>
+                                <p class="text-sm text-gray-600">Students Trained</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="py-24 bg-dark">
+    <!-- Statistics Section -->
+    <section class="py-16 bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center text-white reveal">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2">5000+</div>
+                    <p class="text-blue-200">Students Trained</p>
+                </div>
+                <div class="text-center text-white reveal">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2">50+</div>
+                    <p class="text-blue-200">Professional Courses</p>
+                </div>
+                <div class="text-center text-white reveal">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2">200+</div>
+                    <p class="text-blue-200">Successful Batches</p>
+                </div>
+                <div class="text-center text-white reveal">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2">95%</div>
+                    <p class="text-blue-200">Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-primary">Me</span></h2>
+                <span class="inline-block bg-blue-100 text-primary px-4 py-1.5 rounded-full text-sm font-semibold mb-4">About UCTTC</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Welcome to <span class="text-primary">UCTTC</span></h2>
                 <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
             </div>
-            <div class="glass-card p-8 md:p-12 rounded-2xl reveal">
-                <p class="text-lg text-gray-300 leading-relaxed mb-6">
-                    Born to be a Patriot, I am the offspring of Gautam Bhattacharjee & Sheuly Bhattacharjee. With a strong foundation in the humanities and a current focus on Political Science at Netrakona Govt. College, I blend critical thinking with cutting-edge technical skills.
-                </p>
-                <p class="text-lg text-gray-300 leading-relaxed mb-6">
-                    I am certified in Computer Operations, Digital Marketing, and Data Entry, bringing extensive experience in digital tools, social media promotion, and freelance tasks. I am driven by responsibility and precision.
-                </p>
-                <p class="text-xl font-medium text-white italic border-l-4 border-primary pl-4">
-                    "I think you can count on me with the responsibilities of your businesses. So, why don't you try me?"
-                </p>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="reveal">
+                    <img src="assets/images/about-ucttc.jpg" alt="About UCTTC" class="rounded-2xl shadow-xl w-full" onerror="this.src='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop'">
+                </div>
+                <div class="reveal delay-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Empowering Youth Through Quality IT Education</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Unique Computer Technical Training Center (UCTTC) is a premier government-certified training institution dedicated to providing high-quality computer and IT education in Bangladesh. Since our establishment, we have been committed to transforming students into skilled professionals ready for the global job market.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Our state-of-the-art facilities, experienced instructors, and industry-relevant curriculum ensure that every student receives practical, hands-on training that prepares them for real-world challenges.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span class="text-gray-700">Government Certified</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span class="text-gray-700">Expert Trainers</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span class="text-gray-700">Modern Labs</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span class="text-gray-700">Job Support</span>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="inline-flex bg-primary hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all">
+                        Learn More <i class="fas fa-arrow-right ml-2 mt-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block bg-blue-100 text-primary px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Courses</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Popular <span class="text-primary">Courses</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Choose from our wide range of professional courses designed to boost your career</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course Card 1 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                        <i class="fas fa-palette text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Graphic Design</h3>
+                        <p class="text-gray-600 text-sm mb-4">Master Adobe Photoshop, Illustrator, InDesign and create stunning visual designs.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 3 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 8,500</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
+                        <i class="fas fa-code text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Web Development</h3>
+                        <p class="text-gray-600 text-sm mb-4">Learn HTML, CSS, JavaScript, React and build modern responsive websites.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 6 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 15,000</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
+                        <i class="fas fa-laptop-house text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Freelancing</h3>
+                        <p class="text-gray-600 text-sm mb-4">Start your freelancing career on Upwork, Fiverr with proven strategies.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 3 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 10,000</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center">
+                        <i class="fas fa-bullhorn text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Digital Marketing</h3>
+                        <p class="text-gray-600 text-sm mb-4">SEO, Social Media Marketing, Google Ads, Content Marketing mastery.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 4 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 12,000</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 5 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
+                        <i class="fas fa-video text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Video Editing</h3>
+                        <p class="text-gray-600 text-sm mb-4">Adobe Premiere Pro, After Effects for professional video production.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 3 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 9,000</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 6 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 reveal">
+                    <div class="h-48 bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
+                        <i class="fas fa-desktop text-white text-6xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Computer Office Application</h3>
+                        <p class="text-gray-600 text-sm mb-4">MS Office, Internet, Email, Basic Computer Skills for office work.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                            <span><i class="fas fa-clock mr-1"></i> 2 Months</span>
+                            <span><i class="fas fa-trophy mr-1"></i> Certificate</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-primary font-bold text-lg">৳ 5,000</span>
+                            <a href="admission.html" class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="courses.html" class="inline-flex bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-lg font-medium transition-all">
+                    View All Courses <i class="fas fa-arrow-right ml-2 mt-1"></i>
+                </a>
             </div>
         </div>
     </section>
